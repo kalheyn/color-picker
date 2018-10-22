@@ -1,0 +1,16 @@
+html, body {
+    height: 100%; 
+}
+
+#colorTestContainer {
+    height: 340px;
+    width: 340px; 
+}
+
+.tile {
+    float: left;
+    border-radius: 10px; 
+    cursor: pointer; 
+    border: 2px solid white; 
+    box-sizing: border-box; 
+}
