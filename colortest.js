@@ -147,8 +147,11 @@ function gameOver() {
     container.css({
         'height': '175px', 
     })
-    let newGame = $('<br><a href="./colortest.html" class="btn btn-success">New Game</button>'); 
+    let newGame = $('<br><button type="button" id="newgame" class="btn btn-success">New Game</button>'); 
     container.append(newGame);
+    $('#newgame').on("click", () => {
+        location.reload(); 
+    })
 };
 
 //RUN CODE AFTER EVERYTHING IS LOADED
