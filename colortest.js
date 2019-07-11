@@ -2,7 +2,7 @@
 var level = 0; 
 var timer; 
 var misclicks = 0; 
-var timeRemaining = 15.0; 
+var timeRemaining = 10.0; 
 var totalScore = 0; 
 
 var container = $('#colorTestContainer');
@@ -93,7 +93,7 @@ function colorGrid(){
 function startTimer(){
     if (level > 0) {
         stopTimer(timer); 
-        timeRemaining = 15.0; 
+        timeRemaining = 10.0; 
         timer = setInterval(() => {
             let color = 'black';
             if (timeRemaining < 6) {
