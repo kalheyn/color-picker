@@ -135,7 +135,7 @@ function display() {
 
 //FOR MISCLICKS
 function badClick() {
-    let penalty = 3; 
+    let penalty = 5; 
     timeRemaining > penalty ? timeRemaining = timeRemaining - penalty : timeRemaining = 0; 
     misclicks ++; 
     $('#errors').text("ERRORS: " + misclicks); 
