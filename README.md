@@ -11,4 +11,4 @@ A single player selects from a grid the tile with the unique color. The colors p
 * Set up Google Analytics to track site usage
 
 ## Screenshots
-![Color-Picker screen capture](https://github.com/kalheyn/color-picker/blob/master/Color-Picker screencapture.gif)
+![Color-Picker screen capture](https://github.com/kalheyn/color-picker/blob/master/Color-Picker-screencapture.gif)
